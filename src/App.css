@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(#E86F40, #EA9828)
 }
 
 .App-logo {
@@ -35,4 +36,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.animes-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  list-style: none;
+  grid-gap: 1.5rem;
+}
+
+.animes-list img{
+  width: 80%;
+}
+
+.App h1{
+  color: #045fcf;
+}
+
+.App input{
+  width: 30rem;
+  height: 3rem;
+  outline: none;
+  
+
 }
