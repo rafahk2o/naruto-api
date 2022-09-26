@@ -10,7 +10,7 @@ const InputSearch = ({ value, onChange }) => {
     debouncedChange(event.target.value);
   }
   return (
-  <input type="search" value={displayValue} onChange={handleChange} />
+  <input type="search" placeholder="Digite sua busca" value={displayValue} onChange={handleChange} />
 );
 };
   
